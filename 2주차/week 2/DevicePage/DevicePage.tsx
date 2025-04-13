@@ -30,7 +30,7 @@ const DevicePage = () => {
   };
 
   const onDelete = async (id:string) => {
-    await axiosInstance.post(`http://localhost:5000/delete_device/${id}`);
+    await axiosInstance.post(`[로컬호스트 주소]/delete_device/${id}`);
     await fetchAndSet();
   };
 
