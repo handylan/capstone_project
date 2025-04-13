@@ -3,10 +3,10 @@ from db import *
 import time
 
 # MQTT 브로커 설정
-MQTT_BROKER = "smartadmin.aictlab.com"  # 브로커 주소 (localhost 또는 IP 주소)
+MQTT_BROKER = "[브로커 주소]"  # 브로커 주소 (localhost 또는 IP 주소)
 MQTT_PORT = 1883  # MQTT 포트
-MQTT_SENSOR = "aict/sensor"  # 구독할 센서 토픽: 디바이스명, 착용상태
-MQTT_STATUS = "aict/status"  # 구독할 상태 토픽: 디바이스명, 전원상태, 착용상태, 비상
+MQTT_SENSOR = "[구독할 센서 토픽]"  # 구독할 센서 토픽: 디바이스명, 착용상태
+MQTT_STATUS = "[구독할 센서 토픽]"  # 구독할 상태 토픽: 디바이스명, 전원상태, 착용상태, 비상
 
 
 # MQTT 메시지 수신 콜백 함수
