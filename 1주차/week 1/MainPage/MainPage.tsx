@@ -22,7 +22,7 @@ const MainPage = () => {
   return (
     <div className="layout-login">
       <div className="container">
-        <h1 className="title">AICT 스마트 안전모</h1>
+        <h1 className="title">스마트 안전모</h1>
         <LoginPanel onLogin={onLogin} />
       </div>
     </div>
