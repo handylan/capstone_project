@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5000/',
+    baseURL: '[로컬호스트 주소]',
     timeout: 1000,
     headers: {},
     withCredentials: true
